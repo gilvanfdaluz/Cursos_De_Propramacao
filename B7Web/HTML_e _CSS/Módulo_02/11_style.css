@@ -1,0 +1,21 @@
+/*
+box-sizing: content-box; propiedade padrão do elemento
+box-sizing: border-box; tamanho real do conteúdo 
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+div{
+
+    background-color: #00ff00;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}

@@ -1,0 +1,42 @@
+/*
+bordas :
+solid
+dotted
+dashed
+double
+groove
+
+border-bottom - inferior
+boder-top - superior
+border-left - esquerda
+border-right - diereita
+*/
+
+#texto{
+    border-bottom: 4px solid #f00;
+}
+
+p{
+    border: 3px solid black;
+}
+
+img{
+    border: 4px dotted #f00;
+    border-radius: 20px;
+}
+
+.lista{
+    border-top: 4px solid black;
+}
+
+ul{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+div{
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

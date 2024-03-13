@@ -1,0 +1,28 @@
+/*
+width = largura
+height = altura
+width:inherit = definições do item anterior .
+max-width: máximo
+min-width: mínimo
+
+Pode definir :
+auto
+%
+px
+*/
+
+body{
+    margin: 0;
+}
+
+div{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+img{
+    min-width: 100px;
+    max-width: 300px;
+}

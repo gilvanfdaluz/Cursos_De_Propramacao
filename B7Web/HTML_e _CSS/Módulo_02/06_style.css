@@ -1,0 +1,18 @@
+#texto{
+    color: green;
+}
+
+.paragrafo{
+    color: blue; 
+    font-size: 20px;   
+}
+
+.imagem{
+    width: 250px;
+}
+
+ul li{
+    color:red;
+    font-weight: bold;
+}
+

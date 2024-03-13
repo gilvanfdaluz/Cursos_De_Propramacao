@@ -1,0 +1,18 @@
+/*
+Diferença entre margins e padding;
+Quatro propriedades destinas do elemento: conteúdo, borda, paddin, margin
+
+padding: espaçamento interno do elemento
+margin: espaçamento*/
+
+body{
+    margin: 0px;
+}
+
+div{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid #00ff00;
+}

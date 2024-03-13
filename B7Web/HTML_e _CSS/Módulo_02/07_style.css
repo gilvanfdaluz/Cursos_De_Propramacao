@@ -1,0 +1,11 @@
+/*Cor padrão dos monitores:
+RGB
+R = red = vermelho
+G = grren = verde
+B = blue = azul*/
+
+#texto{
+    background-color: rgba(8, 26, 163, 0.753);
+    color: rgb(100%, 100%, 100%);
+    border: px dotted #f00;
+}

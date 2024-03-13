@@ -1,0 +1,19 @@
+var - É uma variavel generica, escopo global e local, pode ter seu valor alterados (não precisa ter valor inicial);
+
+let - escopo local de bloco, pode ter seu valor alterado (não precisa ter valor inicial);
+
+const - escopo local de bloco, não pode ter seu valor alterado (valor inicial obrigatório);
+
+boolean - dados lógicos, podem ser verdadeiros ou falso(true or false);
+
+null - dados nulos
+
+undefined - dados indefinidos;
+
+string - dados em caracteres ou cadeia de caracteres;
+
+arrey - vetores, matrizes ou lista de dados;
+
+object - dados múltiplos que possuem propriedade e valores, podem representar objetos reais;
+
+function - blocos de comandos e reações a serem apontadas;
