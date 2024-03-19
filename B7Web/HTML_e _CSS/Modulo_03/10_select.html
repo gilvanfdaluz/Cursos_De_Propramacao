@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrulário</title>   
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <h2>Area de Cadastro</h2>
+    <form action="07_login.html" method="get">
+        <select name="ordenacao">
+            <option>Masi Vendidos</option>
+            <option selected>Recentes</option>
+        </select>
+        <input type="submit" value="Cadastro" />
+    </form>
+
+    <h2>Area de Login</h2>
+    <form action="07_login.html" method="get">
+        <select name="ordenar" size="2" multiple>
+            <option value="bestseller">Masi Vendidos</option>
+            <option value="last">Recentes</option>
+        </select>
+        <input type="submit" value="Cadastro" />
+    </form>
+</body>
+</html>
+
+<!--
+Select name="ordenacao"= seleção de item
+<select name="ordenar" size="2" multiple> = mulitlo escolha
+<optio></option>=inseri as informações
+value="bestseller"/value="last" = especificação do value
+slectd= espcifica a ordem da seleção 
+Ex: <option>value="last" selectd>Recentes</option>
+-->
