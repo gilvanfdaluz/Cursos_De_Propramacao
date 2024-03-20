@@ -7,6 +7,7 @@ body{
     font-size: 17px;
     background-color:darkgrey;
     color:black;
+    text-align: center;
 }
 
 p{
@@ -29,6 +30,7 @@ input[type=text], textarea, select{
     outline: 0;
     border: 1px solid #ccc;
     margin-top: 5px;
+    border-radius: 8px;
 }
 
 textarea{
@@ -51,6 +53,7 @@ button{
     font-size: 15px;
     border: 1px solid #ccc;
     background-color: #eee;
+    border-radius: 8px;
 }
 
 button:hover{
