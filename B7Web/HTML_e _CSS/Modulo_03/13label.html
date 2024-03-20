@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrulário</title>   
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <!--Forma avanaçada usando id-->
+    <h2>Area de Cadastro</h2>
+    <form action="07_login.html" method="get">
+
+       <label for="nome">Nome Completo</label>
+       <br/>
+       <input type="text" name="nome" id="nome">
+
+       <br/><br/>
+
+       <input type="checkbox" id="teste"/>
+       <label for="teste">
+        Eu declaro que li e aceito os termos de uso.
+       </label> 
+       
+       <button>Fazer Cadastro</button>
+    </form>
+
+    <!--Forma Simplpificada do label-->
+    <h2>Formulário 2</h2>
+    <h2>Area de Cadastro</h2>
+    <form action="07_login.html" method="get">
+
+       <label>
+            Nome Completo:
+            <br/>
+            <input type="text" name="nome">
+       </label> 
+
+       <br/><br/>
+
+       <label>
+            <input type="checkbox"/>
+            Eu declaro que li e aceito os termos de uso.
+       </label> 
+
+       <button>Fazer Cadastro</button>
+    </form>
+</body>
+</html>
+
+<!--
+    Para a forma mais simples adicionar input seguido  de texto em branco
+-->
