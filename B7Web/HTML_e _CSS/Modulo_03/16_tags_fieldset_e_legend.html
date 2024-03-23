@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./16_style.css">
+</head>
+<body>
+   <form method="post">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            Sobrenome: <br/>
+            <input type="text" name="nome" required minlength="2">
+            
+        </label><br/>
+
+        <label>
+            Sobrenome: <br/>
+            <input type="text" name="lastname">
+        </label><br/>
+
+        <label for="">
+          Idade: <br/>
+          <input type="number" name="age" required step="3" min="18" max="120">
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Proficionais</legend>
+        <label>
+            Nome da Empresa: <br/>
+            <input type="text" name="Campanyname">
+        </label><br/>
+
+        <label>
+            Cargo ba Empre: <br/>
+            <input type="text" name="companyname">
+        </label><br>
+    </fieldset>
+
+    <input type="submit"/>
+
+   </form>
+</body>
+</html>
+
+<!--
+=============================================
+OBS: Assuntos das aulas 16, 17, 18
+=============================================
+    <fieldset> = separa os formulários
+    <legend> = adiciona legneda nos formuários
+    required = requisita o preechimento campo
+    minlength="" = numero minimo de carcactere
+    maxingth="" = numero maximo de caractere
+    ste="" = determina a quantidade de numeros a pular
+
+-->
