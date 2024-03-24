@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="./16_style.css">
 </head>
 <body>
-   <form method="post">  
-<!--Informação de Dados Pessoais-->
+   <form method="post">
+
     <fieldset>
         <legend>Dados Pessoais</legend>
         <label>
             Sobrenome: <br/>
-            <input type="text" name="nome">
+            <input type="text" name="nome" required> 
         </label><br/>
 
         <label>
             Sobrenome: <br/>
-            <input type="text" name="lastname">
+            <input type="text" name="lastname" required>
         </label><br/>
     </fieldset>
-    <!--Informação dos Dados sa Empresa-->
+
     <fieldset>
         <legend>Dados Proficionais</legend>
         <label>
@@ -42,6 +42,7 @@
 </html>
 
 <!--
-    <fieldset> = separa os formulários
-    <legend> = adiciona legneda nos formuários
+    required = requisita o preechimento campo
+    minlength="" = numero minimo de carcactere
+    maxingth="" = numero maximo de caractere
 -->

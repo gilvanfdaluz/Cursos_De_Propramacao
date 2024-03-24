@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./16_style.css">
 </head>
 <body>
-   <form method="post">  
-<!--Informação de Dados Pessoais-->
+   <form method="post" action="19_pagina_cadastro.html" enctype="multipart/form-data">
+    <input type="hidden" name="country" value="BR">
+
     <fieldset>
         <legend>Dados Pessoais</legend>
         <label>
@@ -19,9 +20,19 @@
         <label>
             Sobrenome: <br/>
             <input type="text" name="lastname">
+        </label><br/>   
+
+        <label>
+            Foto: <br/>
+            <input type="file" name="photo" accept="image/*">
+        </label><br/>
+
+        <label>
+            Planilha: <br/>
+            <input type="file" name="Document" accept=".xls,.xlsx">
         </label><br/>
     </fieldset>
-    <!--Informação dos Dados sa Empresa-->
+
     <fieldset>
         <legend>Dados Proficionais</legend>
         <label>
@@ -42,6 +53,18 @@
 </html>
 
 <!--
-    <fieldset> = separa os formulários
-    <legend> = adiciona legneda nos formuários
+Envio de Imagens:
+<input type="file" name="photo" accept="image/*">
+
+Envio de PDF:
+<input type="file" name="Document" accept="application/pdf">
+
+Converte os arquivos em bits/ usar sempre que tiver um campo "file":
+enctype="multipart/form-data"
+
+Envio de arquivos excel:
+<input type="file" name="Document" accept=".xls,.xlsx">
+
+<input type="file" name="Document" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+
 -->

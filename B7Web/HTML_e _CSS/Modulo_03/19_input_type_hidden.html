@@ -7,21 +7,33 @@
     <link rel="stylesheet" href="./16_style.css">
 </head>
 <body>
-   <form method="post">  
-<!--Informação de Dados Pessoais-->
+   <form method="get" action="19_pagina_cadastro.html">
+    <input type="hidden" name="country" value="BR">
+
     <fieldset>
         <legend>Dados Pessoais</legend>
         <label>
             Sobrenome: <br/>
-            <input type="text" name="nome">
+            <input type="text" name="nome" required minlength="2">
+            
         </label><br/>
 
         <label>
             Sobrenome: <br/>
             <input type="text" name="lastname">
         </label><br/>
+
+        <label for="">
+          Idade: <br/>
+          <input type="number" name="age" required step="3" min="18" max="120"><br/>
+          
+        <label>
+            Nascimento: <br/>
+            <input type="date" name="birthdate" required min="2021-06-14" max="2024-03-24">
+        </label>
+        </label>
     </fieldset>
-    <!--Informação dos Dados sa Empresa-->
+
     <fieldset>
         <legend>Dados Proficionais</legend>
         <label>
@@ -42,6 +54,6 @@
 </html>
 
 <!--
-    <fieldset> = separa os formulários
-    <legend> = adiciona legneda nos formuários
+<input type="text" name="country" value="BR"> = Exibe o campo no formulario
+<input type="hidden" name="country" value="BR"> = oculta o campo no formulário
 -->
