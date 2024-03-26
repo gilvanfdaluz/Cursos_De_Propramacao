@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 300px;
+    height: 3in;
+    margin: 1cm;
+    background-color: #999;
+
+}
+
+h1{
+    font-size: 30pt;
+}
+
+
+/*
+px= unidade de medidas fixa - medida absoluta no css
+pt= unidade mediadas para fontes
+in= unidade e medida polegada
+cm= unidade de medida centímetro
+*/
