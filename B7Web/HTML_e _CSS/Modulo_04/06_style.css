@@ -1,0 +1,18 @@
+.box{
+    width: 50%;
+    height: 400px;
+background-color: #999;
+font-family:Courier;
+
+}
+
+.box-interno{
+    background-color: #333;
+    color: #999;
+}
+
+.box-lui{
+    width: 7ch;
+}
+
+/* ex tamanho da altura do x da fonte que está fazendo a aplicação 

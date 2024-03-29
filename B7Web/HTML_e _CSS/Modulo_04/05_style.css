@@ -1,5 +1,5 @@
 html{
-    font-size: 30px;
+    font-size:10px;
 }
 
 h1{
@@ -16,3 +16,8 @@ box-interno{
     border: black
 
 }
+
+/*
+em - baseada no no item superior
+rem - usado para trabalhar com sites inteiros = baseado no primeiro elemento
+*/
