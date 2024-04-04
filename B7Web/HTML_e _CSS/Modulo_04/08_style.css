@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.box{
+    font-size: 20px;
+    color: blue;
+}
+
+h1{
+    font-size: 30px;
+    color: red;
+}
+
+.box h1{
+    font-size: inherit;
+    color: inherit;
+}
+
+/*
+inherit = forçar adicionar elementos do atributo pai.
+
+==================
+
+cores:
+hsl : porcentagem
+rgb : personalizo
+#  : código
+currentColor = efeito cascata
+
+*/

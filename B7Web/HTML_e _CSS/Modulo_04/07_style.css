@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.box{
+background-color: #999;
+height: 100vh;
+width: 100vw;
+}
+
+
+/*
+vh = altura disponível da tela inteira
+vw = largura disponível da tela
+vmin=usa referencia da tela menor = não usado
+vmax=usa referencia da tela menor = não usar
+*/
+
