@@ -1,0 +1,30 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color:brown;
+    }
+}
+
+@media (min-width: 700px) and (max-width:999px){
+    body{
+        background-color:green;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:600px){
+    body{
+        background-color: #0000ff;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+}
