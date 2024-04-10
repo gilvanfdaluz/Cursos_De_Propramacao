@@ -1,0 +1,37 @@
+table, td{
+    border: 2px solid black;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media only print{
+    h1{
+        display: none;
+    }
+}
+
+/*
+MIDIA IMPRESSORA
+@media only print{
+    h1{
+        display: none;
+    }
+}
+===============================
+REMOVER ELEMENTOS DA TELA
+Remove h1 ao imprimi
+@media only screen{
+    h1{
+        display: none;
+    }
+
+Remove h1 da tela e da impressão
+@media all{
+    h1{
+        display: none;
+    }
+}
+*/
