@@ -1,0 +1,22 @@
+/*Funciona quando as medidas estiverem em uma quadrado perfeito.*/
+@media (aspect-ratio: 1/1){
+    body{
+        background-color: #ff0000;
+    }
+}
+
+
+/*Proporção de largura e altura, a largura tem ser o dobro da altura.*/
+@media (min-aspect-ratio: 2/1){
+    body{
+        background-color: #0000ff;
+    }
+}
+
+
+/*Proporção de largura e altura, a altura o dobro da largura.*/
+@media (max-aspect-ratio: 1/2){
+    body{
+        background-color: #00ff00;
+    }
+}
