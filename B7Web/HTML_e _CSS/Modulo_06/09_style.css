@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+form {
+    width: 160px;
+    height: 150px;
+    background-color: #ddd;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+input{
+    padding: 3px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+}
+
+div input{
+    background-color:white;
+    cursor:pointer;
+}
