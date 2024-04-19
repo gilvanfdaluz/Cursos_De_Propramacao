@@ -9,9 +9,9 @@
 <body>
    <form method="post">
     Usuário:<br/>
-    <input type="text" name="usuario" placeholder="Usuário" autofocus/><br/><br/>
+    <input type="email" name="email" placeholder="Usuário" autofocus required autocomplete="off"/><br/><br/>
     Senha:<br/>
-    <input type="password" name="senha"/><br/><br/>
+    <input type="password" name="senha" maxlength="4" required/><br/><br/>
     <div>
         <input type="submit" value="Enviar">
     </div>
@@ -20,6 +20,5 @@
 </html>
 
 <!--
-    placeholder= Indica o que o usuário deverá incerir no campo.
-    autofocus= Posiciona o marcador no campo para iniciar a digitação
+   autocomplete="off"= Desabilita o preenchimento automatico.
 -->

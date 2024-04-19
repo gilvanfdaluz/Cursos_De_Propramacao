@@ -9,9 +9,9 @@
 <body>
    <form method="post">
     Usuário:<br/>
-    <input type="text" name="usuario" placeholder="Usuário" autofocus/><br/><br/>
+    <input type="text" name="usuario" placeholder="Usuário" autofocus maxlength="10"/><br/><br/>
     Senha:<br/>
-    <input type="password" name="senha"/><br/><br/>
+    <input type="password" name="senha" maxlength="4"/><br/><br/>
     <div>
         <input type="submit" value="Enviar">
     </div>
@@ -20,6 +20,6 @@
 </html>
 
 <!--
-    placeholder= Indica o que o usuário deverá incerir no campo.
-    autofocus= Posiciona o marcador no campo para iniciar a digitação
+   size="10"= Define quantidade de caractere
+   maxlength="5" = Define o máximo de caratere
 -->
