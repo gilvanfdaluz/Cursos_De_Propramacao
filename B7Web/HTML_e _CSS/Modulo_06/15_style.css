@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+#teste {
+   background-color: green;
+   width: 200px; /*largura*/
+   height: 200px; /*altura*/
+   margin-left: 100px; /*margem esquerda*/
+   margin-top: 100px; /*margem topo*/
+   border-top-left-radius: 10px; /*bordas superior esquerda*/
+   border-top-right-radius: 10px; /*bordas superior direita*/
+   border-bottom-left-radius: 10px; /*bordas inferior esquerda*/
+   border-bottom-right-radius: 10px; /*bordas inferior direita*/
+}
+
+/*
+Simplificada:
+ border-radius:  10px 30px 50px 70px;
+*/
