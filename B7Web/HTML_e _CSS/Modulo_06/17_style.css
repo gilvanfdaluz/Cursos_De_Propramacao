@@ -1,0 +1,43 @@
+@keyframes exemplo {
+    0% {background-color:red;top:0;left:0;}
+    25% {background-color:yellow;top:0;left:200x;}
+    50% {background-color:blue;top:200px;left:200px;}
+    75% {background-color:green;top:200px;left:0;}
+    100% { background-color:red;top:0;left:0;}
+}
+
+body {
+    margin: 5px; 
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    animation-name:exemplo;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+ /*
+ 1º-DETERMINA O TEMPO DA ANIMAÇÃO
+ animation-name:exemplo;
+ animation-duration:4s;
+
+ DETERMINA A QUANTIDADE DE ANIMAÇOES
+ animation-iteration-count: infinite;
+
+ DETERMINA O TEMPO PARA INICIAR A ANIMAÇÃO
+animation-delay: 2s;
+
+
+2º-FRAMES DE ANIMAÇÃO
+0% {background-color:red;top:0;left:0;}
+25% {background-color:yellow;top:0;left:200x;}
+50% {background-color:blue;top:200px;left:200px;}
+75% {background-color:green;top:200px;left:0;}
+100% { background-color:red;top:0;left:0;}
+*/
+   
