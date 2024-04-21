@@ -1,0 +1,35 @@
+body {
+    margin: 0px; 
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    transition: all 1s ease-in;
+}
+
+.exemplo:hover{
+    width: 300px;
+    background-color:red ;
+}
+
+a {
+    color: #000;
+    transition: all 0.4s linear;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+/*
+AUMENTA A IMAGEM POR INTEIRO
+transition: transform 0.3s ease-in-out;
+
+.exemplo:hover{
+    transform: scale(2.2);
+}
+*/
