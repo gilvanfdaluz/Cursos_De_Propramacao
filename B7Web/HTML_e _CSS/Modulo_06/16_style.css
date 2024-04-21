@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to right,blue, green, yellow, red);
+    
+    
+}
+
+/*safare
+
+    background: blue;
+    background: linear-gradient(-75deg, white, blue);
+
+    Correções de erros de navagadores versão antiga:
+    background:-moz-linear-gradient(white, blue); 
+    background:-o-linear-gradient(white, blue);
+    background:-webkit-linear-gradient(white, blue);
+
+*/
