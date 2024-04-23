@@ -1,0 +1,16 @@
+body {
+    margin: 0px; 
+}
+
+.exemplo {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid black;
+    word-wrap:break-word;
+}
+
+/* 
+Faz ajuste do texto 
+word-wrap:break-word;
+*/
