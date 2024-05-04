@@ -9,8 +9,9 @@
         .container {
             display: flex;
             height: 500px;
-            flex-direction:row;
-            justify-content: space-between;
+            flex-direction:column;
+           justify-content:flex-start;
+            align-items:flex-end;
             background-color: #dddddd;
         }
 
@@ -36,14 +37,44 @@
 </html>
 
 <!--
+flex:1; Todas as divs se dividem de foram a caber em uma mesma linha.
+
 flex-wrap: wrap; Quebra de linha
-flex-flow:row  wrap; Alinha Quabra de linha e coluna 
+
+flex-wrap: nowrap; Propiedade Padrão
+
+flex-flow:row  wrap; Alinha Quabra de linha e coluna, pode adicionar duas propiedades ao mesmo tempo.
+
 justify-content: center; Posicionamento do item "Só alinha na direçõa que está sendo axibida"
+
 align-items: center; Alinhamento na direção contrária
- justify-content: flex-end; Posiciona no final
+
+justify-content: center; Posiciona no meio
+
+justify-content: flex-star; Posiciona no começo
+
+ justify-content: flex-end; Posiciona a direita
+
+ justify-content: flex-around; separa os itens com distanciamento automatico
+
 justify-content: space-between; Separa os itens
- justify-content: flex-r; Posiciona no final
 
-justify-content: apace-betwues
+justify-content: apace-betwues; posiciona automaticament
 
+align-items: center; Posiciona ao centro
+
+justify-content = Define o posicionamento em linhas
+align-items: center = Define o posicionamento e colunas
+
+
+EXEMPLO PARA CENTRALIZAR ITENS 
+
+.container {
+            display: flex;
+            height: 500px;
+            flex-direction:row;
+           justify-content: center;
+            align-items: center;
+            background-color: #dddddd;
+        }
 -->
