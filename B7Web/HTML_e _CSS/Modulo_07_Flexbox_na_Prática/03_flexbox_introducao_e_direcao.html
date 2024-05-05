@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+       
+        .container {
+            display: flex;
+            height: 500px;
+            flex-wrap:wrap;
+            flex-direction:row;
+            justify-content:center;
+            align-items:flex-start;
+            background-color: #dddddd;
+            align-content: space-between;
+        }
+
+            .container div{
+                width: 100px;
+                height: 100px;
+                background-color: #ff0000;
+                margin: 10px;
+                padding: 10px;
+                font-size: 18px;
+            }    
+    </style>
+
+</head>
+<body>
+    <div class="container">
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       <div>4</div>
+       <div>5</div>
+       <div>6</div>
+       <div>7</div>
+       <div>8</div>
+       <div>9</div>
+       <div>10</div>
+    </div>
+</body>
+</html>
+
+<!--
+    align-self: flex-start;
+    Sobreescreve  oaline itsn do container
+
+    align-content: space-between;
+    Faz o alinamento dos itens em fomra de colunas quando há mais de uma linha de conteudo .
+
+
+    ORDENA A POSIÇÃO DOS ITENS
+     .div10 {
+            
+            order: -1;
+        }
+
+    .div12{
+        order:1
+    }
+
+-->
