@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 
 header {
@@ -147,3 +148,88 @@ nav a:hover {
 .list_desc li {
     margin-bottom: 10px;
 }
+
+.banner_options a {
+    display: inline;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.banner_desc div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+}
+
+.banner_desc {
+    margin: 0;
+}
+
+.desc p{
+    margin-bottom: 0;
+}
+
+#geral {
+    display: flex;
+    justify-content:center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex:1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+/*--------EXERCICIO---------*/
+.widget_body{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.deparments div {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    background-color: #36a9e1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.Appointment {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border-bottom: 1px solid #36a9e1;
+    margin-right: 10px;
+    padding: 2px;
+}
+/*---------FIM DO EXECICIO--------------*/
+
