@@ -363,22 +363,35 @@ footer .widget_title_text {
     background-color: #39aae1;
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
 #geral {
     margin-top: 150px;
 }
 
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 470px;
+}
+
 
     .banner_headline {
-        padding: 20px;
+        padding: 40px;
     }
 
     .banner_headline h1 {
-       font-size: 55px; 
+       font-size: 30px; 
+       width: 280px;
     }
 
     .banner_headline h2 {
-        font-size: 17px;
+        font-size: 15px;
+        width: 150px;
     }
 
     .banner_options {
@@ -430,6 +443,5 @@ footer .widget_title_text {
         flex-direction: column;
         justify-content: space-around;
     }
-
-
+ 
 }
