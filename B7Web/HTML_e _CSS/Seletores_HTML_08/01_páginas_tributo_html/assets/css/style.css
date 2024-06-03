@@ -80,13 +80,21 @@ footer p{
     }
 
     @media (max-width:780px) {
+
+        header h1{
+            font-size: 30px;
+        }
+
+        header h3{
+            font-size: 20px;
+        }
         img {
             width: 100%;
             height: auto;
         }
 
        section p {
-        font-size: 30px;
+        font-size: 15px;
        } 
 
        .font p {
