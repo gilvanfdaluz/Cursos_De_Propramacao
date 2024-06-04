@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-    <form action="" method="post">
+    <form action="./login.html" method="post">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label>
@@ -33,7 +33,26 @@
         </fieldset> <br/><br/>
         <fieldset>
             <legend>E-mail e Senha</legend>
-        </fieldset>
+            <label>
+                Digite seu E-mail: <br/>
+                <input type="email" name="email" required placeholder="exemplo@dominio.com">
+            </label> <br/><br/>
+            <label>
+                Digite sua senha: <br/>
+                <input type="password" name="number" required placeholder="1234" minlength="4" maxlength="10"> 
+            </label> <br/><br/>
+            <label>
+                Repita sua senha: <br/>
+                <input type="password" name="number" required placeholder="1234" minlength="4" maxlength="10"> 
+            </label>
+        </fieldset> <br/>
+        <label>
+            <input type="checkbox"/>
+            Eu declaro que li e aceito os termos de uso.
+       </label> <br/><br/>
+        <label>
+            <input type="submit" value="Cadastrar">
+        </label>
     </form>
 </body>
     <script src="./assets/js/script.js"></script>
