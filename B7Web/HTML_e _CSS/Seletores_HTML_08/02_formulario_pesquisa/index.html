@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
 <body>
-    
+    <h1>Cadastro</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Nome: <br/>
+                <input type="text" name="name" required maxlength="40">
+            </label> <br/><br/>
+            <label>
+                Nascimento: <br/>
+                <input type="date" name="birthdate">
+            </label> <br/><br/>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Masculino
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female">
+                Feminino
+              </label><br/><br/>
+              <label>
+                Telefone: <br/>
+                <input type="tel" name="phone" pattern="\(\d{2}\)\d{5}-\d{4}" placeholder="(00)00000-0000" required oninput="formatPhone(event)">
+              </label>
+        </fieldset> <br/><br/>
+        <fieldset>
+            <legend>E-mail e Senha</legend>
+        </fieldset>
+    </form>
 </body>
+    <script src="./assets/js/script.js"></script>
 </html>
