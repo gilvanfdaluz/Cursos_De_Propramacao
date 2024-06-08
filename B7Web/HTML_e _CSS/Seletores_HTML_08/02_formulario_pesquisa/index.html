@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>Cadastro</h1>
+    <div class="title">
+        <h1>Cadastro</h1>
+    </div>
+    
     <form class="cadastro" action="login.html" method="get">
-        <fieldset class="dados">
+        <fieldset>
             <legend>Dados Pessoais</legend>
             <label>
                 Nome: <br/>
@@ -20,26 +23,23 @@
                 <input type="date" name="birthdate">
             </label> <br/><br/>
             
-           
             <div class="genero">
                 <label class="male">
                     <input type="radio" name="gender" value="male">
                     Masculino
                 </label><br/>
-                
                 <label class="female">
                     <input type="radio" name="gender" value="female">
                     Feminino
                 </label>
-            </div> <br/><br/>
+            </div> <br/>
            
             <label>
                 Telefone: <br/>
                 <input type="tel" name="phone" pattern="\(\d{2}\)\d{5}-\d{4}" placeholder="(00)00000-0000" required oninput="formatPhone(event)">
             </label>
-
         </fieldset> <br/><br/>
-        <fieldset class="info-login">
+        <fieldset>
             <legend>E-mail e Senha</legend>
             <label>
                 Digite seu E-mail: <br/>
@@ -59,13 +59,14 @@
             <label>
                 <input type="checkbox" required/>
                 Eu declaro que li e aceito os termos de uso.
-           </label> <br/><br/>
+           </label> <br/>
             
                 <input class="botom-cadastro" type="submit" value="Cadastrar">
         </div>
-        
-
     </form>
+    <footer>
+        <p>&copy; 2024 Gilvan Ferreira. Todos os direitos reservados.</p>
+    </footer>
 </body>
     <script src="./assets/js/script.js"></script>
 </html>
