@@ -1,14 +1,20 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F2F2F2;
 }
 
 .logo img {
-    width: 150px;
+    width: 100px;
 }
 
 .carrinho img {
-    width: 80px;
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carrinho:hover {
+    transform: scale(1.1);
 }
 
 .logo {
@@ -17,25 +23,15 @@ body {
     align-items: center;
 }
 
-.title h2 {
-    margin: 0;
-}
-
-.title1 {
-    color: #0583F2;
-    text-shadow: 1px 1px 1px #F25C05;
- }
-
-.title2 {
-    color: #F25C05;
-}
-
 header {
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px 0px  20px #888888;
+    
 }
 
 .menu ul {
@@ -52,6 +48,9 @@ header {
     font-size: 20px;
     color: #0B5B8C;
     font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+
+
 }
 
 .menu li a:hover {
@@ -60,3 +59,235 @@ header {
     text-decoration-thickness: 10%;
 }
 
+li {
+    transition: transform 0.2s ease-in-out;
+
+}
+
+li:hover {
+    transform: scale(1.1);
+
+}
+
+.img-product {
+    width: 100%;
+}
+
+.product {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    box-shadow: 0px 5px 10px   #888888;
+}
+
+.information, aside{
+    margin: 10px;
+    width: 100%;  
+}
+
+aside {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #F24607;
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.title1 {
+    color: #0583F2;
+    text-shadow: 1px 1px 1px #F24607;
+ }
+
+.title2 {
+    color: #F24607;
+}
+
+p {
+    font-size: 20px;
+    color: #0C0E12;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #095385;
+
+}
+
+article input, button {
+    width: 153px;
+    border: 2px solid #F24607;
+    background-color: #095385;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    margin: 5px;
+    color: #F2F2F2;
+    text-align: center;
+    font-weight: bold; 
+}
+
+button {
+    min-width: 166px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+
+}
+
+footer {
+
+    text-align: center;
+
+}
+
+/*---------Mobile----------*/
+
+@media (max-width:1024px) {
+
+    .information, aside{
+        margin: 10px;
+        width: auto;  
+    }
+
+
+    .product {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-product {
+        width: 100%;
+       }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    header{
+        position: relative;
+    }
+
+    .logo{
+        width: 100%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 0;
+        position: absolute;
+        left: 0;
+       }
+    
+   .menu ul{
+    display: none;
+    flex-direction: column;
+    display: none;
+    position:relative;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    
+   }
+
+   .menuMobile {
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+   }
+
+   .mm_line {
+    background-color: #095385;
+    height: 5px;
+    margin: 5px;
+
+   }
+   .mm_line2 {
+    background-color: #F24607;
+    height: 5px;
+    margin: 5px;
+
+   }
+}
+
+@media (max-width:480px) {
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:320px) {
+    .logo img {
+      display: none;
+    }
+    
+    h1, h2 {
+      font-size: 20px;
+    }
+   p{
+      font-size: 20pX;
+   }
+
+   .carrinho img {
+    width: 30px;
+   }
+
+   .menuMobile {
+    width: 30px;
+    height: 30px;
+   }
+
+   .mm_line, .mm_line2 {
+    height: 3px;
+   }
+
+   }
