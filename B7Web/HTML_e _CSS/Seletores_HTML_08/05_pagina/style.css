@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navegation {
+    margin: 0 20px 0 20px;
+    padding: 0;
+}
+
+.navegation,
+.icon-menu,
+.itens,
+.conteudo,
+form,
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    flex-direction: column;
+}
+
+.icon-menu, .button, ul li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    text-decoration: underline;
+    color: #3c4043;
+}
+
+.navegation a {
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.button {
+    background-color: #0B57D0;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.button a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 170px;
+    width: 100%;
+}
+
+.google img {
+    margin-bottom: 20px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid #DFE1E5;
+    width: 470px;
+    border-radius: 50px;
+}
+
+.pesquisa  form {
+    margin: 0;
+    width: 100%;
+}
+
+.Pesquisar, .pesquisa button {
+    height: 40px;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    outline: 0;
+    padding: 0;
+}
+
+.pesquisa button {
+    border-radius: 100px;
+    cursor: pointer;
+}
+.Pesquisar {
+    width: 100%;
+    font-size: 18px;
+}
+
+.goxjub, .Gdd5U, .tecla-virt {
+    width: 24px;
+    padding: 8px;
+}
