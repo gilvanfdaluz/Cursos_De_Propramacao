@@ -21,6 +21,7 @@ body {
 .icon-menu,
 .itens,
 .conteudo,
+.button-pesquisa
 form,
 ul {
     display: flex;
@@ -85,6 +86,10 @@ ul li:hover {
     border-radius: 50px;
 }
 
+.pesquisa:hover{
+    box-shadow:  0px 1px 10px #DFE1E5;
+}
+
 .pesquisa  form {
     margin: 0;
     width: 100%;
@@ -111,4 +116,14 @@ ul li:hover {
 .goxjub, .Gdd5U, .tecla-virt {
     width: 24px;
     padding: 8px;
+}
+
+.button-pesquisa button{
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #F8F9FA;
+    height: 36px;
+    width: 150px;
+    
 }
