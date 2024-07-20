@@ -21,7 +21,7 @@ body {
 .icon-menu,
 .itens,
 .conteudo,
-.button-pesquisa
+.button-pesquisa,
 form,
 ul {
     display: flex;
@@ -80,7 +80,7 @@ ul li:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 3px;
+    padding: 0;
     border: 1px solid #DFE1E5;
     width: 470px;
     border-radius: 50px;
@@ -92,11 +92,11 @@ ul li:hover {
 
 .pesquisa  form {
     margin: 0;
-    width: 100%;
+    width: 100%
 }
 
 .Pesquisar, .pesquisa button {
-    height: 40px;
+    height: 10px;
     margin: 0;
     border: none;
     background-color: #fff;
@@ -107,10 +107,15 @@ ul li:hover {
 .pesquisa button {
     border-radius: 100px;
     cursor: pointer;
+    margin: 5px;
+    height: auto;
 }
 .Pesquisar {
-    width: 100%;
+    width:100%;
+    height: auto;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .goxjub, .Gdd5U, .tecla-virt {
