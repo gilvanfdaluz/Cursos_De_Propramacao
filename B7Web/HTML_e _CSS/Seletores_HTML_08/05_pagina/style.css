@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
 }
 
@@ -43,6 +46,7 @@ ul {
 ul li:hover {
     text-decoration: underline;
     color: #3c4043;
+    text-decoration-thickness: 7%;
 }
 
 .navegation a {
@@ -132,3 +136,61 @@ ul li:hover {
     width: 150px;
     
 }
+
+.roda-pe{
+    background-color: #F2F2F2;
+}
+
+.roda-pe p, a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.pais {
+    border-bottom: 1px solid #DFE1E5;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+section {
+    flex: 1;
+}
+aside .roda-pe {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.menu-rodape {
+    padding: 5px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 14px;
+    text-align:center;
+}
+.menu-rodape ul {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:800px) {
+    .menu-rodape {
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items: center;
+    }
+}
+
+
+    
