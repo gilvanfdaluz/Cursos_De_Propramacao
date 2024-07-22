@@ -1,15 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     font-family: Arial, sans-serif;
+    margin-top: 65px;
 }
 
-.menu,
-.pesqusa-login,
+.menu div,
+.pesquisa-login,
 .pesquisa,
-.itens {
+.itens,
+ .pesquisa form {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -17,5 +17,132 @@ body {
 }
 
 .menu {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 92px;
+    height: 30px;
+}
+
+.logo {
+    padding: 4px 28px 0 30px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 1px solid #DFE1E5;
+    width: 650px;
+    height: auto;
+    min-height: 44px;
+    border-radius: 50px;
+    box-shadow:  0px 4px 06px #DFE1E5;
+}
+
+
+
+.Pesquisar, .pesquisa button {
+    height: 10px;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    outline: 0;
+    padding: 0;
+}
+
+.pesquisa button {
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 5px;
+    height: auto;
+}
+
+.Pesquisar {
+    width:100%;
+    height: auto;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.goxjub, .Gdd5U, .tecla-virt, .z1asCe-MZy1Rb {
+    width: 24px;
+    padding: 8px;
+}
+
+
+.pesquisa:hover{
+    box-shadow:  0px 2px 13px #DFE1E5;
+}
+
+.button {
+    background-color: #0B57D0;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-right: 24px;
+}
+
+.button a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.pesquisa form{
+    width: 100%;
+    height: auto;
+}
+
+.nave {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #3c4043;
+    padding: 0;
+}
+.nave ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
     padding: 10px;
+    margin: 0;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-bottom: 0;
+}
+
+.nave a {
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.nave li {
+    list-style: none;
+    padding: 10px;
+}
+
+.pesquisa-login {
+    padding: 10px;
+}
+
+.Ferramentas {
+    margin-left: 40px;
+}
+
+.navegacao {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    padding-bottom: 10px;
 }
