@@ -5,6 +5,15 @@ body {
     margin-top: 65px;
 }
 
+.logo {
+    padding: 4px 28px 0 30px;
+}
+
+.logo img {
+    width: 92px;
+    height: 30px;
+}
+
 .menu div,
 .pesquisa-login,
 .pesquisa,
@@ -22,13 +31,12 @@ body {
     box-sizing: border-box;
 }
 
-.logo img {
-    width: 92px;
-    height: 30px;
-}
-
-.logo {
-    padding: 4px 28px 0 30px;
+.navegacao {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    padding-bottom: 10px;
 }
 
 .pesquisa {
@@ -45,6 +53,17 @@ body {
     box-shadow:  0px 4px 06px #DFE1E5;
 }
 
+.pesquisa button {
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 5px;
+    height: auto;
+}
+
+
+.pesquisa:hover{
+    box-shadow:  0px 2px 13px #DFE1E5;
+}
 
 
 .Pesquisar, .pesquisa button {
@@ -54,13 +73,6 @@ body {
     background-color: #fff;
     outline: 0;
     padding: 0;
-}
-
-.pesquisa button {
-    border-radius: 100px;
-    cursor: pointer;
-    margin: 5px;
-    height: auto;
 }
 
 .Pesquisar {
@@ -76,10 +88,6 @@ body {
     padding: 8px;
 }
 
-
-.pesquisa:hover{
-    box-shadow:  0px 2px 13px #DFE1E5;
-}
 
 .button {
     background-color: #0B57D0;
@@ -102,6 +110,7 @@ body {
     height: auto;
 }
 
+
 .nave {
     width: 100%;
     margin: 0;
@@ -121,14 +130,14 @@ body {
     padding-bottom: 0;
 }
 
-.nave a {
-    text-decoration: none;
-    color: #3c4043;
-}
-
 .nave li {
     list-style: none;
     padding: 10px;
+}
+
+.nave a {
+    text-decoration: none;
+    color: #3c4043;
 }
 
 .pesquisa-login {
@@ -137,12 +146,4 @@ body {
 
 .Ferramentas {
     margin-left: 40px;
-}
-
-.navegacao {
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff;
-    top: 0;
-    padding-bottom: 10px;
 }
