@@ -17,7 +17,7 @@ div:empty {
 }
 
 div:empty {
-    /*ocuta tag vazia*/
+    /*oculta tag vazia*/
     display: none;
 }
 
