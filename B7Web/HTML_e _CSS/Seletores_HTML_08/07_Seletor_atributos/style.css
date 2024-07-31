@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+}
+
+
+a[href^="https:"] {
+    /*Frase no inicio do Atributo*/
+    background-color: blueviolet;
+}
+
+a[href*="google"] {
+    /*Frase igual*/
+    background-color: blue;
+}
+
+a[href*="economia"] {
+    /*Frase igual*/
+    background-color:chartreuse;
+}
+
+a[href$="bahia/"] {
+    /*encerra com frase no final do atributo*/
+    background-color: brown;
+}
+
+/*Seletor do atributo é escrito em cochetes [].*/

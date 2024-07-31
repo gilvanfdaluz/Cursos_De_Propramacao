@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+}
+
+div:empty {
+    /*Destaca tag vazia*/
+    background-color: blue;
+}
+
+div:empty {
+    /*ocuta tag vazia*/
+    display: none;
+}
+

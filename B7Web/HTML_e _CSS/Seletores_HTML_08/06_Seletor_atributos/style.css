@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+}
+
+[required] {
+    background-color: blue;
+}
+
+[name="email"]{
+    background-color: blueviolet;
+}
