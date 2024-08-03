@@ -1,0 +1,10 @@
+/*Adiciona efeitos a partir da primeira linha, na ordem crescente*/
+div:nth-child(2) {
+    background-color: #ff0000;
+}
+
+
+/*Adiciona efgeitos a partir da ultima lina, na ordem decrecsente*/
+div:nth-last-child(2) {
+    background-color: #0000ff;
+}
