@@ -1,0 +1,11 @@
+/*Adiciona efeito na primeira letra*/
+p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*Adiciona efeto na primeira linha*/
+p::first-line {
+    background-color: yellow;
+}
