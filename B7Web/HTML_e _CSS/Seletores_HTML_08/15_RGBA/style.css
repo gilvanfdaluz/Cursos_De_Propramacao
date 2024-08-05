@@ -9,7 +9,7 @@ div {
     text-align: center;
     color: #fff;
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.6 );
+    background-color: rgba(0, 0, 0, 0.6 ); /*altera a cor de um item especifico, como por exemplo ralçar a cor da tela*/
     position: fixed;
     left: 0;
     right: 0;
