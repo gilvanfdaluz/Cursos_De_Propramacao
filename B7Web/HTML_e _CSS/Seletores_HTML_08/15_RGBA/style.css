@@ -1,0 +1,20 @@
+body {
+    background-image: url('./imagem.jpg');
+    background-size: cover; /*ajusta o tamanho da imagem*/
+    background-position:center;
+}
+
+div {
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6 );
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/*(rgba)  - a = alfa */
