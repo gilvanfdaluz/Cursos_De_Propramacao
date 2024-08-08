@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.div1 {
+    background-color: #ff0000;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(-90deg);
+
+}
+.div2 {
+    background-color: #ff0000;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    bottom:0;
+    transform: rotate(-90deg);
+
+}
+
+.div3 {
+    background-color: #ff0000;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    transform:skew(20deg, 20deg);
+
+}
+
+
+/*
+skew = destorce o elemento
+skewX = destorce o elemmento ns horizontal
+skewY = desatorce o elemento na vertical
+
+Uasando o códiggo: tasnform:skew(20deg, 10deg); destorce horizontal e vertical
+
+tranform:rotateX(60deg) rotaciona horizontal
+
+tranform:rotateX(60deg) rotaciona vertivcal
+
+tranform:rotateZ(60deg) rotação padrão (tranform:rotate)
+*/

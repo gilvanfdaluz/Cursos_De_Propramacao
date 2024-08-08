@@ -1,0 +1,11 @@
+div {
+    background-color: #ff0000;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    transform: scale(0.5);
+}
+
+
+/*scale Y cresce na vertical*/
+/*scale x cresce na horizontal*/
