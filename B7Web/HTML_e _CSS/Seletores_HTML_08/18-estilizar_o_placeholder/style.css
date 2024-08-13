@@ -1,0 +1,42 @@
+.input{
+    width: 400px;
+    height: 50px;
+    font-size: 27px;
+    color: #ff0000;
+}
+
+.input::-webkit-input-placeholder {
+    /*webkit, blinj, edge*/
+    color: #00ff00;
+}
+
+.input:-moz-placeholder {
+    /*firefox 4 a 18*/
+    color: #00ff00;
+}
+
+.input::-moz-placeholder {
+    /*firefox 19 + */
+    color: #00ff00;
+}
+
+
+.input::-moz-placeholder {
+    /*firefox 19 + */
+    color: #00ff00;
+}
+
+.input:-ms-input-placeholder {
+    /*IE 10 E 11 */
+    color: #00ff00;
+}
+
+.input::-ms-input-placeholder{
+    /*Microsfo Edge */
+    color: #00ff00; 
+}
+
+.inpup::placeholder {
+    /*Todos os navegadores */
+    color: #00ff00;
+}

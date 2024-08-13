@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+    
+}
+
+.botao {
+    text-decoration: none;
+    list-style: none;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s linear;
+}
+
+.botao:hover {
+    background-color:dodgerblue;
+}

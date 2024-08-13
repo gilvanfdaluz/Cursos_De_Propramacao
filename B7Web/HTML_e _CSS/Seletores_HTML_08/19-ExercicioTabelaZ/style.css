@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+table{
+    width: 500px;
+}
+
+
+
+td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+th {
+    border: solid 1px black;
+}
+
+table thead{
+    background-color: darkgray;
+}
+
+tbody tr:nth-child(even){
+    background-color:lightgray;
+}
+
+tbody tr:hover{
+    background-color: thistle;
+}
