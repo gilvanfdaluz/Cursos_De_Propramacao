@@ -13,7 +13,6 @@ body {
 /*
 AREA DO HEADER
 */
-
 header {
     height: 100px;
     background-color: #000;
@@ -75,12 +74,24 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid #b28756;
-}  
+} 
+
+.booton {
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
 
 /*
 AREA DA MAIN/SECTION - BANNER
 */
-
 .banner {
     height: calc(100vh - 100px);
     background-color: #333;
@@ -126,18 +137,7 @@ AREA DA MAIN/SECTION - BANNER
     margin-top: 20PX;
 }
 
-.banner a {
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
+
 
 .banner .sliders-pointer {
     width: 100vw;
@@ -166,7 +166,6 @@ AREA DA MAIN/SECTION - BANNER
 /*
 AREA DA MAIN/SECTION - DEFAUT
 */
-
 .defaut {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -204,6 +203,68 @@ AREA DA MAIN/SECTION - DEFAUT
     background-color: #000;
 }
 
-.defaut.dark .section-title {
+.defaut.dark .section-title,
+.defaut.dark .section-body {
     color: #fff;
 }
+
+
+/*
+CSS DE AREAS ESPECIFICAS
+*/
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+}
+
+.section-aboutus--left P{
+    font-size: 14pX;
+    line-height: 25pX;
+}
+
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+   
+}
+
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333
+}
+
+
+
+/*
+ Funções dos Códigos CSS:
+
+1. line-height: 25px;
+   - Define a altura da linha, ou seja, a distância vertical entre as linhas de texto. Neste caso, é definida como 25 pixels¹.
+
+2. overflow-x: hidden;
+   - Controla o comportamento do conteúdo que transborda horizontalmente. Com "hidden", o conteúdo que ultrapassa a largura do elemento é ocultado².
+
+3. box-sizing: border-box;
+   - Inclui o padding e a borda dentro da largura e altura total do elemento, facilitando o controle do layout³.
+
+4. text-transform: uppercase;
+   - Transforma todo o texto do elemento em letras maiúsculas⁴.
+
+5. background-position: bottom;
+   - Define a posição da imagem de fundo na parte inferior do elemento.
+
+6. overflow: hidden;
+   - Oculta qualquer conteúdo que ultrapasse as bordas do elemento, tanto horizontal quanto verticalmente.
+
+7. background-size: cover;
+   - Redimensiona a imagem de fundo para cobrir todo o elemento, mantendo a proporção da imagem.
+
+8. display: inline-block;
+   - Define o elemento como um bloco em linha, permitindo definir largura e altura, mas mantendo-o na mesma linha que outros elementos em linha.
+
+9. display: block;
+   - Define o elemento como um bloco, ocupando toda a largura disponível e iniciando em uma nova linha.
+*/
