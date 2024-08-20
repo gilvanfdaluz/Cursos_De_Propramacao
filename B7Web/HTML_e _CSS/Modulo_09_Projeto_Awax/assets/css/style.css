@@ -6,10 +6,13 @@
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 13px; 
+    font-size: 13px;
+    overflow-x: hidden;
 }
 
-/*AREA DO HEADER*/
+/*
+AREA DO HEADER
+*/
 
 header {
     height: 100px;
@@ -74,7 +77,9 @@ header {
     border-bottom: 5px solid #b28756;
 }  
 
-/*AREA DA MAIN/SECTION - BANNER*/
+/*
+AREA DA MAIN/SECTION - BANNER
+*/
 
 .banner {
     height: calc(100vh - 100px);
@@ -158,5 +163,47 @@ header {
     background-color: #b28756;
 }
 
-/*AREA DA MAIN/SECTION - DEFAUT*/
+/*
+AREA DA MAIN/SECTION - DEFAUT
+*/
 
+.defaut {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.defaut .section-title,
+.defaut .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+ }
+
+ .defaut .section-title {
+    font-size: 20px;
+ }
+
+ .defaut .section-desc {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+ }
+
+.defaut .section-body {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.defaut.light .section-title,
+.defaut.light .section-body {
+    color: #000;
+}
+
+.defaut.dark {
+    background-color: #000;
+}
+
+.defaut.dark .section-title {
+    color: #fff;
+}
