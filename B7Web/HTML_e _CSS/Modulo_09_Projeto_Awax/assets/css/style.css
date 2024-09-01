@@ -89,6 +89,14 @@ header {
     border-radius: 20px;
 }
 
+.button-dark {
+    background-color: #000;
+}
+
+.button-dark:hover {
+    background-color: #b28756;
+}
+
 /*
 AREA DA MAIN/SECTION - BANNER
 */
@@ -132,7 +140,7 @@ AREA DA MAIN/SECTION - BANNER
     color: #b28756;
 }
 
-.banner H2 {
+.banner h2 {
     text-transform: uppercase;
     margin-top: 20PX;
 }
@@ -190,6 +198,10 @@ AREA DA MAIN/SECTION - DEFAUT
 .defaut .section-body {
     max-width: 1140px;
     margin: auto;
+}
+
+.defaut.light {
+    background-color: #f7f7f7;
 }
 
 .defaut.light .section-title,
@@ -548,6 +560,26 @@ DEFAULT LIGHT TESTIMONIALS
 .section-testimonials .pointer.active {
     background-color: #b28756;
 }
+
+/*
+DEFAUT SECTION-COMPONIES
+*/
+
+.section-companies {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-companies--area {
+    display: flex;
+    align-items: center;
+}
+
+.section-company {
+    flex: 1;
+    text-align: center;
+}
+
 
 
 /*
