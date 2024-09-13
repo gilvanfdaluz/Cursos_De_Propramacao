@@ -43,6 +43,10 @@ header {
     border-radius: 40px;
 }
 
+.menu-opener {
+    display: none;
+}
+
 .menu {
     flex: 1;
     display: flex;
@@ -74,6 +78,7 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid #b28756;
+    color: #ccc;
 } 
 
 .button {
@@ -962,13 +967,11 @@ section-map
     height: auto;
 }
 
-/* 
-
-FOOTER AREA
-
-*/
-
-
+@media (min-width:450px) and (max-width:800px) {
+    nav {
+        display: none;
+    }
+}
 
 
 /*
