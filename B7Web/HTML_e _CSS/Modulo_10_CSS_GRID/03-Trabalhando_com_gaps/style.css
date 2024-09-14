@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10PX;
+    gap: 10px;
+}
+
+.item{
+    background-color: #0000ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*
+Código absolto, porém ainda em uso:
+grid-column-gap: 10PX; - largura coluna
+grid-row-gap: 10px; - lqargura linha
+grid-gap: 10px 20px; - largura linha e coluna
+*/
