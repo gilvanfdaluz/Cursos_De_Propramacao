@@ -1,11 +1,13 @@
-.container {
+.container1,
+.container2 {
     background-color: #ccc;
     display: grid;
     gap: 10px;
     grid-template-areas: 
-    "header header header header header"
-    "menu content content content content"
-    "footer footer footer footer ad"
+        "item1 item2"
+        "item3 item2"
+        "item4.      "
+    
     ;
 }
 
@@ -17,22 +19,20 @@
     font-size: 20px;
 }
 
-header {
-    grid-area: header;
+.item1 {
+    grid-area: item1;
 }
 
-nav {
-    grid-area:menu;
+.item2 {
+    grid-area: item2;
 }
 
-section {
-    grid-area: content;
+.item3 {
+    grid-area: item3;
 }
 
-footer {
-    grid-area: footer;
+.item4 {
+    grid-area: item4;
 }
 
-.ad {
-    grid-area: ad;
-}
+

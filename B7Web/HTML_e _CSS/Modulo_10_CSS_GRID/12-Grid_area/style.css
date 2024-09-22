@@ -1,0 +1,30 @@
+.container {
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    background-color: #0000ffff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.item1 {
+    /*
+    1. grid-row-start
+    2. grid-colum-start
+    3. grid-row-and
+    4. grid-colum-and
+    */
+   grid-area: 2 / 2 / span 2 / span 2;
+
+}
+
+.item2 {
+     grid-area: 4 / 3 / span 2 / span 1;
+}
+
