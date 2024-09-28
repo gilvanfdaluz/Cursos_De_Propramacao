@@ -641,10 +641,9 @@ DEFAUT SECTION-COMPONIES
 
 .section-companies--area {
     display: flex;
-    .section-company {
-    align-items: center;
 }
-
+.section-company {
+    align-items: center;
     flex: 1;
     text-align: center;
 }
