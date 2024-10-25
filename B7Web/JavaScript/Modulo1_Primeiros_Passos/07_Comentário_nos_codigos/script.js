@@ -1,11 +1,11 @@
-let nome = 'Jose' //string
-let idade = 30 //Number
+let nome = 'Jose'; //string
+let idade = 30 ;//Number
 let deslogado =  true //boolean
-let lista = ["ovo", "massa", "corante"] //Array
-let nomeCompleto = {nome: 'José', idade: 90} //Object
+let lista = ["ovo", "massa", "corante"]; //Array
+let nomeCompleto = {nome: 'José', idade: 90}; //Object
 
 //Itentifica o tipo de variável
-console.log(typeof nome)
+console.log(typeof nome);
 
 
 //===========================
