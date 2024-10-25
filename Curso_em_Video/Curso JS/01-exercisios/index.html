@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Teste Java Script</h1>
+    </div>
+    
+    <div>
+        <a href="">Butão</a>
+    </div>
+
+        <script>
+            window.alert('Para acesso a este site deverá ser maior de 18 anos')
+            var nome = window.prompt('Qual o seu nome')
+            var anoNas = Number(window.prompt('Ano de nascimento'))
+            var anoAtual = Number(window.prompt('Ano atual'))
+            document.write(`Olá <b>${nome}</b>, seu nome tem ${nome.length} caracteres.<br>`)
+            document.write(`Seu nome em minusculo é <b>${nome.toLowerCase()}</b>.<br>`)
+            document.write(`Seu nome em maiusculo é <b>${nome.toUpperCase()}</b>.<br>`)
+            document.write(`Sua idade é: ${anoAtual - anoNas} anos.`)
+        </script>
+  
+</body>
+</html>
