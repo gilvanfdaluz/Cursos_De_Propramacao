@@ -5,3 +5,13 @@ if (idade > 18){
 } else {
     console.log('Voce é menor de idade');
 }
+
+/*
+SINAIS
+< - Menor
+> - Maior
+== - Igual
+>= - Maior/Igual
+<= - Menor igual
+!= - Diferente
+*/
