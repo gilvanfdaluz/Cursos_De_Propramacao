@@ -2,16 +2,21 @@
 //Bombeiro
 //Fiscal
 
-let profession = 'fiscal';
+let profession = 'bombeiro';
 
 switch (profession) {
     case 'fiscal':
         console.log('Sua camisa é verde');
         break;
+
     case 'bombeiro':
-    console.log('Sua camisa será vermelha');
+        console.log('Sua camisa será vermelha');
         break;
+
     case 'policial':
         console.log('sua camisa será azul');
-        break
+        break;
+    
+    default:
+        console.log('Sua camisa será preta')
 }
