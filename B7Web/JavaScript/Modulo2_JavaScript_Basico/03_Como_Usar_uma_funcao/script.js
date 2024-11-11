@@ -5,3 +5,4 @@ function gravidade(){
 }
 
 console.log('Opa, tudo bem?');
+gravidade();
