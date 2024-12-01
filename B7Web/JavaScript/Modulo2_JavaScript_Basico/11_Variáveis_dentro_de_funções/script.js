@@ -1,3 +1,6 @@
+
+
+
 //Vaviarel de escopo global
 let count = 0;
 
