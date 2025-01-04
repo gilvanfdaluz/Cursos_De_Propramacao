@@ -19,9 +19,9 @@ let personagem = {
     nome: 'Paulo',
     idade: 65,
     carros: [
-        {modelo: 'Fiat', cor: ' Preto'},
-        {modelo: 'Ferrari', cor: ' Vermelho'}
+        {modelo: 'Fiat', cor: 'Preto'},
+        {modelo: 'Ferrari', cor: 'Vermelho'}
     ]
 }
 
-console.log(personagem.carros[0].modelo + personagem.carros[0].cor);
+console.log(personagem.carros[0].modelo + ' ' + personagem.carros[0].cor);
