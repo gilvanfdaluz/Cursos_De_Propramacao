@@ -1,7 +1,6 @@
 let nome = 'Jose'; let idade = 90;
 
-console.log(nome);
-console.log(idade);
+console.log(`Nome: ${nome}\nIdade: ${idade}`);
 
 // Ponto e virgula é obrigatório quando é feito duas variaveis em uma linha só.
 
