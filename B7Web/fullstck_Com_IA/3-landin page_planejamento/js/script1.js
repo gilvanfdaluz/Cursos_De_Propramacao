@@ -1,3 +1,5 @@
+//Condicionais:
+
 const senha = '1234000';
 const caracteres = senha.length;
 

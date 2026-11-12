@@ -1,3 +1,5 @@
+//condicionais
+
 let punctuation = 0;
 
 let febre = confirm('Tem febre?');

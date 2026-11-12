@@ -1,3 +1,5 @@
+
+//Condicionaiis
 const valor = 80
 
 const descnoto1 = (10/100) * valor

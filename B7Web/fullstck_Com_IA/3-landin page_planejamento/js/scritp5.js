@@ -1,3 +1,5 @@
+//Fubnçoes:
+
 function exibirNome (nome, sobrenoem){
 let nomeCompleto = nome + " " + sobrenoem;
 console.log(nomeCompleto);
