@@ -15,6 +15,7 @@ if (typeof age === 'number') {
 }
 
 ============================================
+LET:
 
 let name = 'Paulo'
 let age = 40
@@ -26,6 +27,7 @@ age = 12
 console.log(age)
 
 ============================================
+CONST:
 
 let name = 'Paulo' 
 const age = 40  // constante não permite alterações
@@ -34,3 +36,17 @@ let email = null //Sem valor
 
 console.log(age)
 age = 12
+
+==============================================
+STRING:
+
+const firstName = 'André'
+const lastName = 'Souza'
+const fullName = `${firstName} ${lastName}`
+const age = 90
+
+const message = `Olá, eu sou ${fullName} e tenho ${age}`
+
+console.log(message)
+
+===============================================

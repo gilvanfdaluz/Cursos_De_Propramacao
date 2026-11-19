@@ -1,8 +1,8 @@
-let name = 'Paulo'
-let age = 40
-let siTeacher = true
-let email = null //Sem valor
+const firstName = 'André'
+const lastName = 'Souza'
+const fullName = `${firstName} ${lastName}`
+const age = 90
 
-console.log(age)
-age = 12
-console.log(age)
+const message = `Olá, eu sou ${fullName} e tenho ${age}`
+
+console.log(message)
