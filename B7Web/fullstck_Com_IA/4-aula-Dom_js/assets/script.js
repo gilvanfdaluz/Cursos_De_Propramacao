@@ -1,8 +1,8 @@
-const firstName = 'André'
-const lastName = 'Souza'
-const fullName = `${firstName} ${lastName}`
-const age = 90
+function limparEmail (email) {
+    let emailLimpo = email.trim().toLowerCase()
+    return emailLimpo
+}
 
-const message = `Olá, eu sou ${fullName} e tenho ${age}`
-
-console.log(message)
+let emailSujo = '  GILVAN@HOTMAIL.COM  '
+let email = limparEmail (emailSujo)
+console.log(email)

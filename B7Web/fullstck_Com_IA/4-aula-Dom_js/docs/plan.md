@@ -50,3 +50,20 @@ const message = `Olá, eu sou ${fullName} e tenho ${age}`
 console.log(message)
 
 ===============================================
+METODOS DE STING 2 
+let email = ' GILVAN@HOTMAIL.COM '
+email = email.trim().toLocaleLowerCase()
+
+console.log(email)
+
+================================================
+METODOS DE STING 2 
+
+function limparEmail (email) {
+    let emailLimpo = email.trim().toLowerCase()
+    return emailLimpo
+}
+
+let emailSujo = '  GILVAN@HOTMAIL.COM  '
+let email = limparEmail (emailSujo)
+console.log(email)
